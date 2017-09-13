@@ -1,0 +1,63 @@
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 24px;
+  margin: 20px;
+}
+
+h2 {
+  color: #aaa;
+  font-weight: 800;
+  margin-top: 75px;
+}
+
+h3 {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: -20px;
+}
+
+.sub-heading {
+  font-family: "Merriweather", "Times New Roman", serif;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#loose-spacing {
+  letter-spacing: 0.3em;
+}
+
+#tight-spacing {
+  letter-spacing: -0.06em;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+#line-through {
+  text-decoration: line-through;
+
+}
+
+#overline {
+  text-decoration: overline;
+}
+
+#uppercase {
+  text-transform: uppercase;
+
+}
+
+#lowercase {
+  text-transform: lowercase;
+}
+
+#capitalize {
+  text-transform: capitalize;
+}
