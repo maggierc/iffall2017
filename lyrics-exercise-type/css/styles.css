@@ -1,0 +1,70 @@
+body {
+
+  color: #36c5f9;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400;
+  margin: 25px 50px 25px 125px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+
+  font-size: 90px;
+  font-family: "Satisfy", cursive;
+  letter-spacing: .05em;
+  color: #36c5f9;
+  padding: 0 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: #fff463;
+  color: #ff72c6;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.song-parts {
+  text-transform: uppercase;
+  background-color: #ff72c6;
+  color: #fff463;
+  padding: 5px 20px;
+  font-weight: 700;
+}
+
+a {
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+a:link {
+  color: #fff463;
+}
+
+a:visited {
+  color: #d3288e;
+}
+
+a:hover {
+  color: #ffd51c;
+}
+
+div {
+  margin-top: 20px;
+}
+
+
+.fa-volume-up:link {
+  color: white;
+}
+
+.singer {
+  font-style: italic;
+  color: #ff72c6;
+  letter-spacing: .02em;
+}
+
+div#verse1 {
+  padding-top: 20px;
+}
