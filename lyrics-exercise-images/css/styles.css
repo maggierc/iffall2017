@@ -1,0 +1,81 @@
+body {
+  background-color: #fff996;
+  /*color: #ef0e42;*/
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Galada", cursive;
+  letter-spacing: .01em;
+  color: #fff76d;
+  background-image: url("https://68.media.tumblr.com/760ec42758c0bf41fc11b8bc7bd988d7/tumblr_nqiz6hV8ci1qjgwuho1_500.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-color: #ef0e42;*/
+  padding: 190px 80px 20px 80px;
+}
+
+div {
+  padding: 20px 80px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #ef0e42;
+  font-size: 20px;
+  padding: 5px 80px;
+}
+
+.song-parts {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a {
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ef0e42;
+}
+
+a:visited {
+  color: #d3288e;
+}
+
+a:hover {
+  color: #fff76d;
+  text-shadow: 2px 1px 2px #222;
+}
+
+
+p.hook {
+  color: #ef0e42;
+}
+
+
+.singer {
+  font-style: italic;
+  color: #fff76d;
+  background-color: #ef0e42;
+  letter-spacing: .02em;
+  padding: 5px 10px;
+}
+
+
+div#verse1 {
+  padding-top: 20px;
+}
+
+img.album {
+  width: 200px;
+  height: 200px;
+}
