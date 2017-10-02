@@ -1,0 +1,683 @@
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main_content {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.button_container {
+  border: 1px solid #ddd;
+  margin: 0 10px 10px 0;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+a#btn_spotify {
+  display: inline-block;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px 40px 0 40px;
+  background-color: #2ebd59;
+  border: 2px solid #2ebd59;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a#btn_spotify:hover {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+
+a#btn_twitter {
+  display: inline-block;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 105px;
+  padding: 10px 30px 0 30px;
+  background-color: #56cdf1;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a#btn_twitter:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+  background: #2ebfec; /* Old browsers */
+  background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 75px;
+  padding-top: 8px;
+  background-color: #232f3e;
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+}
+
+a#btn_amazon:hover {
+  background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+  display: inline-block;
+  margin:auto;
+  margin-top: 100px;
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #eb1478;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+  color: #fff;
+  background-color: #eb1478;
+}
+
+a#btn_cocacola {
+  display: block;
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 70px;
+  margin: auto;
+  margin-top: 65px;
+  padding-top: 35px;
+  background-color: #f40000;
+  border: 5px solid #f40000;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+a#btn_cocacola:hover {
+  box-shadow: 0 0 25px #000;
+}
+
+a#btn_apple {
+  display: block;
+  width: 140px;
+  height: 100px;
+  margin: auto;
+  margin-top: 75px;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 90px;
+  color: #ddd;
+}
+
+a#btn_apple:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url("../images/apple-logo.jpg");
+  background-size: 81px 84px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*transition: background 1s, color 1s;*/
+}
+
+a#btn_ibm {
+  display: block;
+  width: 140px;
+  height: 90px;
+  margin: auto;
+  margin-top: 85px;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 65px;
+  color: rgb(90, 135, 197);
+}
+
+a#btn_ibm:hover {
+  background: repeating-linear-gradient(#d3dbe8, #d3dbe8 8px, #fff 8px, #fff 16px);
+  /*color: rgb(255, 255, 255);*/
+}
+
+a#btn_lyft {
+  display: block;
+  width: 140px;
+  height: 40px;
+  border-radius: 70px;
+  margin: auto;
+  margin-top: 105px;
+  padding: 5px 0 9px 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  background-color: #ff14c0;
+  color: white;
+}
+
+a#btn_lyft:hover {
+    background: -webkit-linear-gradient(#ff14c0, #b300c4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff14c0, #b300c4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff14c0, #b300c4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff14c0, #b300c4); /* Standard syntax */
+
+}
+
+a#btn_harley-davidson {
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-top: 105px;
+  padding: 9px 3px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: -0.03em;
+  line-height: 1em;
+  color: #f45d00;
+  border: 5px solid black;
+}
+
+a#btn_harley-davidson:hover {
+  color: #000;
+  background: #f45d00;
+  border-style: double;
+}
+
+a#btn_michael-kors {
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  margin-top: 45px;
+  padding: 35px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  color: #000;
+  /*border: 5px solid white;
+  border-radius: 90px;*/
+}
+
+a#btn_michael-kors:hover {
+  /*border: 5px solid black;*/
+  letter-spacing: -0.3em;
+  text-indent: -0.3em;
+}
+
+a#btn_ideo {
+  display: block;
+  width: 140px;
+  height: 65px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 95px;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 45px;
+  border: 5px solid #66c7c6;
+  color: #333;
+  transition: .5s;
+  background-color: #f2f2f2;
+}
+
+a#btn_ideo:hover {
+  border-color: #f15e22;
+  transition: .5s;
+}
+
+a#btn_sardella{
+  display: block;
+  width: 140px;
+  height: 100px;
+  margin: auto;
+  margin-top: 75px;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 90px;
+  color: white;
+  text-shadow: 5px 5px blue;
+}
+
+a#btn_sardella:hover {
+  color: blue;
+  text-shadow: 5px 5px #01c1b1;
+}
+
+
+a#btn_samsung {
+  display: block;
+  box-sizing: border-box;
+  width: 205px;
+  height: 60px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 5px 3px;
+  border-radius: 50%;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #fff;
+  background-color: #0c4db7;
+  transition: .5s;
+}
+
+a#btn_samsung:hover {
+  background: #fff;
+  color: #01317f;
+  transition: color .5s, background .25s;
+}
+
+a#btn_bissingers {
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 95px;
+    padding-top: 10px;
+    font-family: 'Fondamento', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: #d1b962;
+    border: 5px solid #d1b962;
+}
+
+a#btn_bissingers:hover {
+  background-color: #5b2e18;
+}
+
+a#btn_ofa {
+  display: block;
+  box-sizing: border-box;
+  width: 115px;
+  height: 105px;
+  margin: auto;
+  padding-top: 25px;
+  margin-top: 75px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28b8ed;
+}
+
+a#btn_ofa:hover {
+  font-size: 50px;
+  padding-top: 19px;
+}
+
+a#btn_tonight-show {
+  display: block;
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 70px;
+  margin: auto;
+  margin-top: 65px;
+  padding-top: 35px;
+  background-color: #193a70;
+}
+
+a#btn_tonight-show:hover {
+  background-image: url('../images/tonight-show-logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 40px #193a70;
+  background-color: none;
+}
+
+
+a#btn_botanical-garden {
+  display: block;
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  margin-top: 70px;
+  padding: 15px;
+  background-image: url("../images/botanical-logo.png");
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a#btn_botanical-garden:hover {
+  background-color: #8cad5d;
+  box-shadow: 6px 6px 13px #707c5d;
+}
+
+a#btn_tesla {
+    display: block;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 65px;
+    padding-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    color: #555;
+    letter-spacing: 0.09em;
+    border: 2px dashed #555;
+}
+
+a#btn_tesla:hover {
+    transform: rotate(360deg);
+    transition: 0.75s;
+}
+
+a#btn_color-run {
+  display: block;
+  box-sizing: border-box;
+  width: 215px;
+  height: 70px;
+  margin: auto;
+  margin-top: 85px;
+  padding: 15px 3px;
+  border-radius: 40px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 26px;
+  color: #000;
+}
+
+a#btn_color-run:hover {
+  background: -webkit-linear-gradient(90deg, #ff14c0, #fffc54, #42dfff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg, #ff14c0, #fffc54, #42dfff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg, #ff14c0, #fffc54, #42dfff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg, #ff14c0, #fffc54, #42dfff); /* Standard syntax */
+}
+
+a#btn_moo {
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  height: 93px;
+  margin: auto;
+  margin-top: 70px;
+  padding-top: 22px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 36px;
+  border: 3px solid #00a859;
+  background-color: #00a859;
+  color: #fff;
+}
+
+a#btn_moo:hover {
+  border-color: #00bc64;
+  background-color: white;
+  color: #00bc64;
+}
+
+a#btn_pottermore {
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  height: 100px;
+  margin: auto;
+  margin-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  background-image: url('../images/potter-logo-no-scar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a#btn_pottermore:hover {
+  background-image: url('../images/potter-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+a#btn_fitbit {
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  height: 100px;
+  margin: auto;
+  margin-top: 70px;
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 45px;
+  border: 10px dotted #66c7c6;
+  color: #222;
+}
+
+a#btn_fitbit:hover {
+  border-radius: 95px;
+}
+
+a#btn_exploding-kittens {
+  display: block;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-top: 5px;
+  margin-top: 70px;
+  border-radius: 15px;
+  font-size: 60px;
+  color: #fc9a18;
+  background: #d80000;
+}
+
+a#btn_exploding-kittens:hover {
+  color: #f9c918;
+  background: -webkit-radial-gradient(circle, #d80000, #6d0000); /* Safari */
+  background: -o-radial-gradient(circle, #d80000, #6d0000); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, #d80000, #6d0000); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, #d80000, #6d0000); /* Standard syntax */
+}
+
+
+a#btn_st-jude {
+  display: block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 80px;
+  margin: auto;
+  padding-top: 5px;
+  margin-top: 85px;
+  border-radius: 15px;
+  font-size: 50px;
+  color: #f1f1f1;
+  background: #777;
+  box-shadow: 0 7px #8c002c;
+}
+
+a#btn_st-jude:hover {
+  color: #8c002c;
+  background: #ddd;
+}
+
+a#btn_new-yorker {
+  display: block;
+  box-sizing: border-box;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  margin-top: 70px;
+  background-image: url('../images/theNewYorker-logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+a#btn_new-yorker:hover {
+  background-image: url('../images/newYorkerMan-logo.png');
+  background-size: 100px 100px;
+}
+
+a#btn_foreflight {
+  display: block;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-top: 9px;
+  margin-top: 70px;
+  font-size: 60px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: hsl(200, 100%, 15%);
+  transition: .2s;
+}
+
+a#btn_foreflight:hover {
+  background-color: hsl(200, 100%, 50%);
+  transition: .2s;
+
+  /*rotation property found on w3schools*/
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+a#btn_instagram {
+  display: block;
+  box-sizing: border-box;
+  width: 105px;
+  height: 105px;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 70px;
+  font-family: "Lobster Two", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  border: 6px solid #000;
+  border-radius: 30px;
+}
+
+a#btn_instagram:hover {
+  background-image: url('../images/instagram-logo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  color: rgba(255, 0, 0, 0);
+}
+
+a#btn_electrabike {
+  display: block;
+  box-sizing: border-box;
+  width: 115px;
+  height: 115px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 70px;
+  font-family: "Lobster Two", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+}
+
+a#btn_electrabike:hover {
+  font-style: italic;
+  background-color: #47d6ef;
+  -ms-transform: skewX(-10deg); /* IE 9 */
+  -webkit-transform: skewX(-10deg); /* Safari */
+  transform: skewX(-10deg); /* Standard syntax */
+}
+
+a#btn_old-navy {
+  display: block;
+  box-sizing: border-box;
+  width: 175px;
+  height: 60px;
+  margin: auto;
+  padding: 15px;
+  margin-top: 90px;
+  border-radius: 5px;
+
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  transition: 0.5s, background 0.25s;
+}
+
+a#btn_old-navy:hover {
+  background: #004768;
+  border-radius: 100%;
+  transition: 0.5s, background 0.25s;
+}
