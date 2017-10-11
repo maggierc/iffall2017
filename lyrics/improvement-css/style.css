@@ -1,0 +1,18 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+.text-content {
+  width: 900px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+
+img {
+  display: block;
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+}
