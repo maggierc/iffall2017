@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+div {
+  margin: 30px 0;
+}
+
+div.desktop img{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+div.mobile img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
