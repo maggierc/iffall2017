@@ -1,0 +1,345 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", Arial, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  color: #f1f1f1;
+}
+
+/************section styling**********/
+
+
+section.head h2, section.head p {
+  font-size: 18px;
+}
+
+section.content {
+  width: 100%;
+  min-width: 800px;
+  height: 750px;
+  margin: auto;
+  padding: 80px;
+  box-sizing: border-box;
+  background-color: #fefefe;
+}
+
+
+section.head.content {
+  height: 600px;
+}
+
+section.history.head.content {
+  background-color: #b2b3a3;
+  color: #f1f1f1;
+}
+
+section.slow-fashion.head.content {
+  background-color: #b69a5b;
+  color: #f1f1f1;
+}
+
+section.materials.head.content {
+  background-color: #d5c4a1;
+  color: #f1f1f1;
+}
+
+section.designers.head.content {
+  background-color: #c9b96f;
+  color: #f1f1f1;
+}
+
+section.organizations.head.content {
+  background-color: #d5c4a1;
+  color: #f1f1f1;
+}
+
+section.future.head.content {
+  /*background-color: #d5c4a1;
+  color: #f1f1f1;*/
+  background-image: url('../images/copenhagen.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: #f1f1f1;
+  height: 600px;
+}
+
+section.controversy.head.content {
+  background-color: #b69a5b;
+  color: #f1f1f1;
+}
+
+section.index.head.content {
+  background-image: url('../images/landing-page.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: #f1f1f1;
+  height: 100%;
+}
+
+
+/************styling elements in sections**********/
+
+p {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+p.float-right {
+  position: relative;
+  left: 650px;
+}
+
+
+h1 {
+  padding: 0;
+  margin: 0;
+  width: 900px;
+  font-family: "Barlow", Arial, sans-serif;
+  font-size: 100px;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Barlow", Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+div.container {
+  width: 1200px;
+  margin: auto;
+}
+
+div.info {
+  padding: 0;
+  margin: 0;
+  width: 400px;
+}
+
+section.head.content div.info {
+  margin-top: 130px;
+
+}
+
+div.pullquote p {
+  width: 500px;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 80px;
+  float: right;
+  text-transform: uppercase;
+  position: relative;
+  right: 80px;
+  top: -120px;
+  z-index: 100;
+}
+
+div.pullquote#historyquote p {
+  width: 1200px;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 300px;
+  text-transform: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+
+/************navigation stlying**********/
+
+nav {
+  float: right;
+  padding-right: 80px;
+  padding-top: 100px;
+  font-size: 50px;
+  overflow: hidden;
+  z-index: 10;
+  font-family: "Barlow", Arial, sans-serif;
+}
+
+i.fa-bars {
+  font-size: 50px;
+}
+
+nav a {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+/************split background color**********/
+section.content {
+  position: relative;
+  z-index: -10;
+}
+
+div.info {
+  position: relative;
+  z-index: -9;
+}
+
+/************DROPDOWN STYLING**********/
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /*color: #222;
+  font-weight: 600;*/
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 80px;
+  min-width: 160px;
+  z-index: 100;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #f1f1f1;
+  padding: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  border-bottom: 2px solid hsla(360, 100%, 100%, 0);
+}
+
+.dropdown-content a:hover {
+  /*text-decoration: underline;*/
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/************IMAGE STLYING**********/
+section.content div.info.floatR {
+  float: right;
+}
+
+img {
+  height: 800px;
+  position: absolute;
+  right: 0;
+  z-index: -10;
+}
+
+/*materials images*/
+img#imgLyocell {
+  height: 800px;
+  position: absolute;
+  top: -400px;
+  right: 0;
+  z-index: -10;
+}
+
+
+img#imgAngora {
+  height: 700px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  z-index: -10;
+}
+
+
+/*history imgs*/
+
+img#patagonia {
+  height: 300px;
+  bottom: 100px;
+  left: 80px;
+  right: auto;
+}
+
+/*slow fashion imgs*/
+img#slow-fashion1 {
+  height: 500px;
+  left: 0;
+  top: 175px;
+  right: auto;
+}
+
+img#slow-fashion2 {
+  height: 500px;
+  bottom: 0;
+}
+
+img#slow-fashion3 {
+  height: 750px;
+  top: -175px;
+}
+
+/*designers images*/
+
+
+/*organizations imgs*/
+img#efi {
+  bottom: 0;
+}
+
+/*future page images*/
+
+img#restart-fashion{
+  height: 300px;
+  right: 80px;
+  bottom: 120px;
+}
+
+
+
+/*BREAKPOINTS*/
+@media (max-width:1150px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  section.head.content div.info {
+    margin-top: 50px;
+  }
+
+  nav {
+    float: right;
+    padding-top: 20px;
+  }
+}
