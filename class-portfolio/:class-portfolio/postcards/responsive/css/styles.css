@@ -1,0 +1,288 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+a {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+div.postcard#postcard1 {
+  height: 120%;
+  background-image: url('../images/pineapple-shawngus.jpg');
+  background-size: cover;
+  background-position: center right;
+}
+
+
+img {
+  width: 100%;
+}
+
+p#quote1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 70px;
+  color: #533c66;
+  position: absolute;
+  top: 12%;
+  right: 20%;
+}
+
+
+
+p#speaker1 {
+  margin: 0;
+  width: 250px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #533c66;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+
+
+@media (min-width: 900px) {
+  div.postcard#postcard1 {
+    height: 100%;
+    background-image: url('../images/pineapple-shawngus.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  p#quote1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 75px;
+    color: #533c66;
+    position: static;
+    width: 350px;
+    margin: auto;
+    padding-top: 15%;
+    padding-left: 17%;
+  }
+
+  p#speaker1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #533c66;
+    position: static;
+    width: 250px;
+    margin: auto;
+    padding-left: 9%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  div.postcard#postcard1 {
+    height: 100%;
+    background-image: url('../images/pineapple-shawngus.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  p#quote1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 75px;
+    color: #533c66;
+    position: static;
+    width: 350px;
+    margin: auto;
+    padding-top: 15%;
+    padding-left: 13%;
+  }
+
+  p#speaker1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #533c66;
+    position: static;
+    width: 250px;
+    margin: auto;
+    padding-left: 5%;
+  }
+}
+
+
+/*****SECOND POSTCARD STYLING******/
+
+
+div.postcard#postcard2 {
+  height: 130%;
+  background-image: url('../images/pineapple-shawngus2.jpg');
+  background-size: cover;
+  background-position: bottom right;
+}
+
+div#content2 {
+  box-sizing: border-box;
+  padding: 1em;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+p#quote2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 26px;
+  color: #739e4e;
+}
+
+p#speaker2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #739e4e;
+}
+
+
+@media (min-width: 900px) {
+  div.postcard#postcard2 {
+    height: 100%;
+    background-image: url('../images/pineapple-shawngus2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  div#content2 {
+    box-sizing: border-box;
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 23%;
+    right: 27%;
+  }
+
+  p#quote2 {
+    font-weight: 700;
+    font-size: 55px;
+    color: #739e4e;
+  }
+
+  p#speaker2 {
+    margin-top: 0.5em;
+    font-weight: 700;
+    font-size: 30px;
+    color: #739e4e;
+  }
+}
+
+
+
+/*****THIRD POSTCARD STYLING******/
+
+div.postcard#postcard3 {
+  height: 100%;
+  background-image: url('../images/psych_gus-5.jpg');
+  background-size: cover;
+  background-position: bottom right;
+}
+
+div#content3 {
+  box-sizing: border-box;
+  padding: 1em;
+  max-width: 90%;
+  position: absolute;
+  top: 3%;
+  left: 7%;
+}
+
+p#quote3 {
+  margin: 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 30px;
+  color: #171032;
+}
+
+p#speaker3 {
+  margin: auto;
+  text-align: left;
+  margin-top: 1em;
+  font-weight: 700;
+  font-size: 14px;
+  color: #171032;
+}
+
+@media (min-width: 900px) {
+  div.postcard#postcard3 {
+    height: 100%;
+    background-image: url('../images/psych_gus-5.jpg');
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  div#content3 {
+    box-sizing: border-box;
+    padding: 1em;
+    max-width: 45%;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+  }
+
+  p#quote3 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 65px;
+    color: #171032;
+    text-shadow: 2px 2px 1px rgba(23, 16, 50, 0.25);
+
+  }
+
+  p#speaker3 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px rgba(23, 16, 50, 0.25);
+    color: #171032;
+
+  }
+}
+
+/*MASTER NAV STYLING*/
+
+
+#master-nav a {
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 3px solid #333;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  top: auto;
+  left:auto;
+  z-index: 9999;
+  width: 150px;
+  height: 50px;
+  padding: 10px 0;
+}
+
+#master-nav:hover {
+  text-decoration: none;
+}
+
+#master-nav a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+}
