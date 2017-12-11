@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #444;
+}
+
+
+.container {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+
+/*header styling*/
+
+header {
+  padding: 50px 0;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+
+/*main content stlying*/
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+.portfolio_item {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #fefefe;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 3px 3px 10px 2px #ccc;
+  vertical-align: top;
+}
+
+.portfolio_item:hover {
+  box-shadow: 3px 3px 10px 5px #aaa;
+}
+
+.image {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 200px;
+  margin: auto;
+}
+
+.project-info {
+  text-align: left;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+}
+
+p {
+  margin-top: 10px;
+  padding: 0;
+  line-height: 1.4em;
+}
